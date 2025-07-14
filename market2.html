@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marketplace - Page 2 - Philatelists Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success bg-opacity-70">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="./image/log.jpg" alt="Logo" width="60" height="50" class="rounded-circle">
+      <span class="text-light fs-4 ms-2" style="font-family: 'Monotype Corsiva', cursive, serif;">PHILATELISTS HUB</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="index.html"
+            onmouseover="this.classList.replace('text-light','text-warning')"
+            onmouseout="this.classList.replace('text-warning','text-light')">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="learn.html"
+            onmouseover="this.classList.replace('text-light','text-warning')"
+            onmouseout="this.classList.replace('text-warning','text-light')">Learn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="chat.html"
+            onmouseover="this.classList.replace('text-light','text-warning')"
+            onmouseout="this.classList.replace('text-warning','text-light')">Chat-Box</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light active" href="market.html"
+            onmouseover="this.classList.replace('text-light','text-warning')"
+            onmouseout="this.classList.replace('text-warning','text-light')">Marketplace</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown"
+            onmouseover="this.classList.replace('text-light','text-warning')"
+            onmouseout="this.classList.replace('text-warning','text-light')">Register</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="login.html">Login</a></li>
+            <li><a class="dropdown-item" href="sign.html">Sign-up</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h2 class="mb-4 text-center">Philatelic Marketplace & Catalogue</h2>
+  <p class="text-center">Browse, buy, and trade rare stamps. Use filters to find stamps by year, region, theme, or type.</p>
+
+  <!-- Filters -->
+  <div class="row mb-4">
+    <div class="col-md-4 mb-2">
+      <input type="text" class="form-control" placeholder="Search stamps...">
+    </div>
+    <div class="col-md-2 mb-2">
+      <select class="form-select">
+        <option selected>Year</option>
+        <option>2025</option>
+        <option>2024</option>
+        <option>early 1900's</option>
+      </select>
+    </div>
+    <div class="col-md-2 mb-2">
+      <select class="form-select">
+        <option selected>Region</option>
+        <option>North</option>
+        <option>South</option>
+        <option>East</option>
+        <option>West</option>
+      </select>
+    </div>
+    <div class="col-md-2 mb-2">
+      <select class="form-select">
+        <option selected>Theme</option>
+        <option>Nature</option>
+        <option>Historical</option>
+        <option>Art</option>
+      </select>
+    </div>
+    <div class="col-md-2 mb-2">
+      <select class="form-select">
+        <option selected>Type</option>
+        <option>Stamp</option>
+        <option>First-Day Cover</option>
+        <option>Postmark</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Card Grid -->
+  <div class="row">
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow">
+        <a href="stamp-details.html?id=7">
+          <img src="./image/f4.webp" class="card-img-top" style="height:160px; object-fit:cover;" alt="1953 First Day Cover">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">1953 First Day Cover</h5>
+          <p class="card-text flex-grow-1">UPU 3c Stamp Columbus Indiana – A.N. Boicourt Vintage Post</p>
+          <div class="d-flex justify-content-between mt-auto">
+            <a href="#" class="btn btn-sm btn-success"><i class="bi bi-cart-plus"></i> Buy</a>
+            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-heart"></i> Wishlist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow">
+        <a href="stamp-details.html?id=8">
+          <img src="./image/f5.webp" class="card-img-top" style="height:160px; object-fit:cover;" alt="1941 Santa Claus Indiana">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">1941 SANTA CLAUS INDIANA TIED CHRISTMAS SEALS!</h5>
+          <p class="card-text flex-grow-1">FIRST DAY COVER LABELS L@@K!</p>
+          <div class="d-flex justify-content-between mt-auto">
+            <a href="#" class="btn btn-sm btn-success"><i class="bi bi-cart-plus"></i> Buy</a>
+            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-heart"></i> Wishlist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow">
+        <a href="stamp-details.html?id=9">
+          <img src="./image/p1.jpg" class="card-img-top" style="height:160px; object-fit:cover;" alt="Centennial of Davis, California">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Centennial of Davis, California</h5>
+          <p class="card-text flex-grow-1">Released at 2-8-2017</p>
+          <div class="d-flex justify-content-between mt-auto">
+            <a href="#" class="btn btn-sm btn-success"><i class="bi bi-cart-plus"></i> Buy</a>
+            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-heart"></i> Wishlist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow">
+        <a href="stamp-details.html?id=10">
+          <img src="./image/p2.jpg" class="card-img-top" style="height:160px; object-fit:cover;" alt="Fort Moultrie">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Fort Moultrie</h5>
+          <p class="card-text flex-grow-1">Fort Sumter National Monument</p>
+          <div class="d-flex justify-content-between mt-auto">
+            <a href="#" class="btn btn-sm btn-success"><i class="bi bi-cart-plus"></i> Buy</a>
+            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-heart"></i> Wishlist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow">
+        <a href="stamp-details.html?id=11">
+          <img src="./image/p3.jpg" class="card-img-top" style="height:160px; object-fit:cover;" alt="Jamestown">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Jamestown</h5>
+          <p class="card-text flex-grow-1">New York Post Office Bicentennial</p>
+          <div class="d-flex justify-content-between mt-auto">
+            <a href="#" class="btn btn-sm btn-success"><i class="bi bi-cart-plus"></i> Buy</a>
+            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-heart"></i> Wishlist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow">
+        <a href="stamp-details.html?id=12">
+          <img src="./image/p4.jpg" class="card-img-top" style="height:160px; object-fit:cover;" alt="Pewee Valley">
+        </a>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Pewee Valley “Mail by Rail”</h5>
+          <p class="card-text flex-grow-1">Released at October-22-2016</p>
+          <div class="d-flex justify-content-between mt-auto">
+            <a href="#" class="btn btn-sm btn-success"><i class="bi bi-cart-plus"></i> Buy</a>
+            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-heart"></i> Wishlist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center mt-4">
+      <li class="page-item"><a class="page-link" href="market.html">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="market.html">1</a></li>
+      <li class="page-item active"><a class="page-link" href="#">2</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Footer -->
+<footer class="bg-success text-light p-4 mt-4">
+  <div class="container text-center">
+    <p class="mb-0">© 2025 Philatelists Hub. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

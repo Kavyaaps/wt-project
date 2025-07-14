@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Philatelists Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-success bg-opacity-70">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="log.jpg" alt="Logo" width="80" height="70" class="rounded-circle">
+      <span class="text-light fs-3 ms-2" style="font-family: 'Monotype Corsiva', cursive, serif;">PHILATELISTS HUB</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+    <a class="nav-link text-light" href="index.html"
+       onmouseover="this.classList.replace('text-light','text-warning')"
+       onmouseout="this.classList.replace('text-warning','text-light')">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light active" href="learn.html"
+       onmouseover="this.classList.replace('text-light','text-warning')"
+       onmouseout="this.classList.replace('text-warning','text-light')">Learn</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light" href="chat.html"
+       onmouseover="this.classList.replace('text-light','text-warning')"
+       onmouseout="this.classList.replace('text-warning','text-light')">Chat-Box</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light" href="market.html"
+       onmouseover="this.classList.replace('text-light','text-warning')"
+       onmouseout="this.classList.replace('text-warning','text-light')">Marketplace</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown"
+       onmouseover="this.classList.replace('text-light','text-warning')"
+       onmouseout="this.classList.replace('text-warning','text-light')">Register</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="login.html">Login</a></li>
+      <li><a class="dropdown-item" href="sign.html">Sign-up</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="d-flex justify-content-center align-items-center"
+         style="min-height:100vh; background:url('hbg.avif') center center / cover no-repeat;">
+  <div class="bg-dark bg-opacity-50 text-light p-5 rounded shadow w-75">
+    <div class="row align-items-center">
+      <div class="col-md-7 text-center text-md-start">
+        <h1 class="mb-3">Welcome to Philatelists Hub</h1>
+        <p class="lead fs-4">Discover, learn, and trade rare stamps with fellow enthusiasts from around the country.
+        Join our community to explore the fascinating world of philately!</p>
+        <a href="#"
+           class="btn btn-warning mt-3"
+           style="transition: background-color 0.3s;"
+           onmouseover="this.style.backgroundColor='#198754'; this.style.color='white';"
+           onmouseout="this.style.backgroundColor='#ffc107'; this.style.color='black';">Get Started</a>
+      </div>
+      <div class="col-md-5 text-center mt-4 mt-md-0">
+        <img src="log.jpg" alt="Logo" width="200" height="200" class="rounded-circle border border-3 border-warning">
+      </div>
+ <div class="col-md-5 text-center mb-4 mb-md-0">
+    <div id="stampCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <img src="h1.jpg" alt="Good Night Moon" width="200" height="200" class="rounded border border-3 border-warning">
+          <p class="mt-2">Good Night Moon stamp are being issued as Forever® stamp</p>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="h2.webp" alt="Titanic postcard" width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">Tuck’s Oilette Series #9898. Rare RMS Titanic postcard (1912). Sold at auction for $406.</p>
+        </div>
+<div class="carousel-item text-center">
+          <img src="h3.jpg" width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">1847 5c Benjamin Franklin, Red Brown, Thin Bluish Wove Paper, Imp...</p>
+        </div>
+<div class="carousel-item text-center">
+          <img src="h4.jpg" width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">2025 Global Forever Stamp: 1794 Compass Rose.</p>
+        </div>
+<div class="carousel-item text-center">
+          <img src="h5.jpg"  width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">2025 First-Class Forever Stamp - Imperforate Love</p>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#stampCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#stampCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  <div id="stampCarousel1" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <img src="f1.webp" width="200" height="200" class="rounded border border-3 border-warning">
+          <p class="mt-2">FDC card 1st day, stamp day 1944 GRENOBLE FRANCE FRENCH . </p>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="f2.webp" width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">25-185, 2025, U.S. Army, Pictorial Postmark, First Day Cover, 250th Anniversary</p>
+        </div>
+<div class="carousel-item text-center">
+          <img src="f3.webp" width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">#UC17 US Postage Stamp Centenary Fleetwood Knapp Masonic cachet First Day cover</p>
+        </div>
+<div class="carousel-item text-center">
+          <img src="f4.webp" width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">1953 First Day Cover UPU 3c Stamp Columbus Indiana – A.N. Boicourt Vintage Post</p>
+        </div>
+<div class="carousel-item text-center">
+          <img src="f5.webp"  width="180" height="180" class="rounded border border-3 border-warning">
+          <p class="mt-2">1941 SANTA CLAUS INDIANA TIED CHRISTMAS SEALS ! FIRST DAY COVER LABELS L@@K !</p>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#stampCarousel1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#stampCarousel1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+      </div>
+      <div class="col-md-7 mt-5 md-5 text-center text-md-start">
+        <h1 class="mb-3">What You’ll Find Inside:</h1>
+<h4 class="mb-3">Learn & Explore</h4>
+        <p class="lead fs-4">Dive into the fascinating world of stamps. Access articles, guides, and expert insights on rare collections, postal history, 
+and techniques for preserving your stamps.</p>
+<h4 class="mb-3">Marketplace</h4>
+        <p class="lead fs-4">Buy, sell, and exchange stamps with trusted collectors across the country. 
+Showcase your unique finds or discover rare additions to enhance your collection.</p>
+<h4 class="mb-3">Community & Events</h4>
+        <p class="lead fs-4">Connect with fellow philatelists through forums, discussions, and virtual meet-ups. 
+Participate in exhibitions, competitions, and exclusive member events.</p>
+<h4 class="mb-3">Personal Collection Tools</h4>
+        <p class="lead fs-4">Organize and display your stamp collection online. Track your collection’s value and history, and share it with other enthusiasts.</p>
+
+     </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="bg-success text-light p-4 mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <h5>About Us</h5>
+        <p>Philatelists Hub is a national community for stamp collectors, learners, and traders.  
+        Discover rare stamps, share your collections, and connect with fellow enthusiasts across the country.</p>
+      </div>
+      <div class="col-md-6">
+        <h5>Contact Us</h5>
+        <p>Email: info@philatelistshub.com</p>
+        <p>Phone: +91-9876543210</p>
+        <p>Address: 123, Stamp Street, Chennai, India</p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
